@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    padding-top: 50px;
+    font-size: 30px;
+}
+
+body{
+    background-color: #eff0f5;
+}
+
+.Container-table{
+    background-color: #eff0f5;
+    padding-top: 20px;
+    padding-bottom: 32px;
+}
+
+.Table{
+    padding: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: white;
+    border: none;
+    padding-right: 20px;
+    /* position: absolute;
+    top: 0%; */
+}
+
+
+th{
+    padding-right: 200px;
+}
+
+td{
+    padding-top: 10px;
+}
+
+@media  screen and (max-width: 1275px) {
+    .navbar{
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+        
+/* .navy{
+    padding-bottom: 1.5rem;
+}
+        
+.account{
+    padding: 0;
+    padding-bottom: 0.9rem;
+} */
+    
+.box{
+    margin-bottom: 150px;
+
+}
+}
